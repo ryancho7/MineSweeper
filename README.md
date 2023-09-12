@@ -1,18 +1,8 @@
-## Getting Started
+# [Minesweeper (Java)]
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple a Minesweeper game in Java that I learned to code through online instruction! This game of Minesweeper was created in Java using the awt and swing graphics library. I created a graphical user interface (GUI) to display a 8x8 grid of tiles. The functionality behind the game was set so that with a left click, the tile is opened and detected for a mine. If there is no mine, the program will count the number of mines surrounding the tile by recursively checking neighboring tiles. With a right click, mine flags can be placed and removed from a tile. Mines are generated randomly and the number of mines in the game is displayed at the top.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+## Credit:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+This project was completed under the guidance of Kenny Yip and various online resources.
